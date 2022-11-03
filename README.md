@@ -1,7 +1,7 @@
 # robosys202x
 ロボシスのコード
 # plusコマンド
-![test](https://gitgub.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
 標準入力から読み込んだ数字を足す。
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
