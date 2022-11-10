@@ -8,8 +8,12 @@
 # ダウンロード方法
 下の文をコピーする
 git clone https://github.com/sekitorimisaki/robosys202x.git
+
 # 実行方法
-* seq [足したい数字] | ./plusで実行できる
+* クローンしたディレクトリに入る
+* seq [足したい数字] | ./plus
+で実行できる
+
 ## 必要なソフトウェア
 * Python
  * テスト済み: 3.7~3.10
