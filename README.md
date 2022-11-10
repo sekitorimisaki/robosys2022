@@ -5,11 +5,11 @@
 [![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
 標準入力から読み込んだ数字を1からその数字まで足す
 
-#ダウンロード方法
+# ダウンロード方法
 git clone https://github.com/sekitorimisaki/robosys202x.git
-#実行方法
+# 実行方法
 *seq [足したい数字] | ./plusで実行できる
-##必要なソフトウェア
+## 必要なソフトウェア
 * Python
  * テスト済み: 3.7~3.10
 
