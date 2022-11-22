@@ -1,25 +1,24 @@
 # robosys202x
-ロボットシステム学用のリポジトリ
+ロボットシステム学用の練習用リポジトリ
 
 # plusコマンド
 [![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
-標準入力から読み込んだ数字を1からその数字まで足す
+標準入力から読み込んだ数字を足す
 
 # ダウンロード方法
 下の文をコピーする
 git clone https://github.com/sekitorimisaki/robosys202x.git
 
 # 実行方法
-* クローンしたディレクトリに入る
-* seq [足したい数字] | ./plus
-で実行できる
+* ./plus > [ファイル名]でファイルにある数字をすべて足した結果が出力される
+*seq [足したい数字]./plusで足したい数字までの数を足した結果が出力される
 
 ## 必要なソフトウェア
 * Python
  * テスト済み: 3.7~3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu 20.04
 
 
 
