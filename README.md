@@ -2,7 +2,7 @@
 ロボットシステム学用の練習用リポジトリ
 
 # ダウンロード方法
-下の文をコピーする
+下の文をコピーする          
 git clone https://github.com/sekitorimisaki/robosys202x.git
 
 # plusコマンド
