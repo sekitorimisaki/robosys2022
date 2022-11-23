@@ -9,10 +9,14 @@ res=0
 ### plus I/O TEST ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
+out=$(./plus < value.txt)
+[ "${out}" = 197 ] || ng ${LINENO}
 
 ### multiplication I/O TEST ###
 out=$(seq 5 | ./multiplication)
 [ "${out}" = 120 ] || ng ${LINENO}
+out=$(./multiplication < value.txt)
+[ "${out}" = 334604560500 ] || ng ${LINENO}
 
 ### plus STRANGE INPUT ###
 out=$(echo あ | ./plus)
