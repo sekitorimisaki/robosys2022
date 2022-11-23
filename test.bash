@@ -6,9 +6,13 @@ ng(){
 	res=1
 }
 res=0
-### I/O TEST ###
+### plus I/O TEST ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
+
+### multiplication I/O TEST ###
+out=$(seq 5 | ./multiplication)
+[ "${out}" = 120 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
