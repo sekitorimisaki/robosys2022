@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Misaki Sekitori
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+ans = 1000000000
+for line in sys.stdin:
+    if int(ans) > int(line):
+        ans = line
+print(int(ans))

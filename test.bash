@@ -1,5 +1,5 @@
 #!/bin/bash -xv
-# SPDX-FileCopyrightText: 2022 Ryuichi Ueda
+# SPDX-FileCopyrightText: 2022 Misaki Sekitori
 # SPDX-License-Identifier: BSD-3-Clause
 ng(){
 	echo NG at Line $1
@@ -17,6 +17,18 @@ out=$(seq 5 | ./multiplication)
 [ "${out}" = 120 ] || ng ${LINENO}
 out=$(./multiplication < value.txt)
 [ "${out}" = 334604560500 ] || ng ${LINENO}
+
+### min I/O TEST ###
+out=$(seq 5 | ./min)
+[ "${out}" = 1 ] || ng ${LINENO}
+out=$(./min < value.txt)
+[ "${out}" = 3 ] || ng ${LINENO}
+
+### max I/O TEST ###
+out=$(seq 5 | ./max)
+[ "${out}" = 5 ] || ng ${LINENO}
+out=$(./max < value.txt)
+[ "${out}" = 49 ] || ng ${LINENO}
 
 ### plus STRANGE INPUT ###
 out=$(echo あ | ./plus)
