@@ -6,7 +6,7 @@
 git clone https://github.com/sekitorimisaki/robosys202x.git
 
 # plusコマンド
-[![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字を足す
 
 ## 実行方法
@@ -14,7 +14,7 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 *seq [足したい数字]./plusで足したい数字までの数を足した結果が出力される
 
 # multiplicationコマンド
-[![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字を掛ける
 
 ## 実行方法
@@ -22,14 +22,14 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 *seq [かけたい数字]./multiplication でかけたい数字までの数をかけた結果が出力される
 
 # minコマンド
-[![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字の最小値を出力する
 
 ## 実行方法
 * ./min > [ファイル名]でファイルにある数字の最小値が出力される
 
 # maxコマンド
-[![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字の最大値を出力する
 
 ## 実行方法
