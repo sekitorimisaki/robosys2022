@@ -13,8 +13,6 @@ out=$(seq 5 | ./plus)
 ### multiplication I/O TEST ###
 out=$(seq 5 | ./multiplication)
 [ "${out}" = 120 ] || ng ${LINENO}
-out=$(seq 0 | ./multiplication)
-[ "${out}" = 0 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
