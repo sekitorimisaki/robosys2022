@@ -24,6 +24,12 @@ out=$(seq 5 | ./min)
 out=$(./min < value.txt)
 [ "${out}" = 3 ] || ng ${LINENO}
 
+### max I/O TEST ###
+out=$(seq 5 | ./max)
+[ "${out}" = 5 ] || ng ${LINENO}
+out=$(./max < value.txt)
+[ "${out}" = 49 ] || ng ${LINENO}
+
 ### plus STRANGE INPUT ###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
@@ -31,6 +37,16 @@ out=$(echo あ | ./plus)
 
 ### multiplication STRANGE INPUT ###
 out=$(echo あ | ./multiplication)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+### min STRANGE INPUT ###
+out=$(echo あ | ./min)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+### max STRANGE INPUT ###
+out=$(echo あ | ./max)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
