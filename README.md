@@ -30,10 +30,10 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 
 # maxコマンド
 [![test](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys202x/actions/workflows/test.yml)
-標準入力から読み込んだ数字の最小値を出力する
+標準入力から読み込んだ数字の最大値を出力する
 
 ## 実行方法
-* ./max > [ファイル名]でファイルにある数字の最小値が出力される
+* ./max > [ファイル名]でファイルにある数字の最大値が出力される
 
 ## 必要なソフトウェア
 * Python
