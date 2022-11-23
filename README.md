@@ -12,7 +12,7 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 ## 実行方法
 * ./plus > [ファイル名]  
 ファイルにある数字をすべて足した結果が出力される
-*seq [足したい数字]./plus  
+* seq [足したい数字]./plus  
 足したい数字までの数を足した結果が出力される
 
 # multiplicationコマンド
@@ -22,7 +22,7 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 ## 実行方法
 * ./multiplication > [ファイル名]  
 ファイルにある数字をすべてかけた結果が出力される
-*seq [かけたい数字]./multiplication  
+* seq [かけたい数字]./multiplication  
 かけたい数字の階乗の結果が出力される
 
 # minコマンド
@@ -47,9 +47,9 @@ git clone https://github.com/sekitorimisaki/robosys202x.git
 
 ## テスト環境
 * Ubuntu 20.04
-
-
-                         
+                      
+                    
+                                               
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージは，aaa由来のコード（© 2022 Hoge Fuge）を利用しています．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
