@@ -24,12 +24,6 @@ out=$(seq 5 | ./min)
 out=$(./min < value.txt)
 [ "${out}" = 3 ] || ng ${LINENO}
 
-### max I/O TEST ###
-out=$(seq 5 | ./max)
-[ "${out}" = 5 ] || ng ${LINENO}
-out=$(./max < value.txt)
-[ "${out}" = 49 ] || ng ${LINENO}
-
 ### plus STRANGE INPUT ###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
