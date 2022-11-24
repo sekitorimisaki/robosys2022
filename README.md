@@ -57,7 +57,7 @@ value.txtにある数字の最大値が出力される
 ## テスト
 | plus | multiplication | max | min |
 | ------------- | ------------- | ------------- | ------------- |
-| [![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workf    lows/test.yml)  | [![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workf    lows/test.yml)  | [![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workf    lows/test.yml) | [![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workf    lows/test.yml) |
+| ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) |
 ## テスト環境
 * Ubuntu 20.04
                       
