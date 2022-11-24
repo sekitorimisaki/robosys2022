@@ -4,7 +4,7 @@
 
 # ダウンロード方法          
 ``` 
-git clone https://github.com/sekitorimisaki/robosys202.git
+git clone https://github.com/sekitorimisaki/robosys2022.git
 ```
 
 # plusコマンド
