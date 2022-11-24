@@ -6,9 +6,7 @@
 git clone https://github.com/sekitorimisaki/robosys202.git
 ```
 ## テスト結果
-| plus  | multiplication | max | min |
-| ------------- | ------------- | ------------- | ------------- |
-| ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) |
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 
 # plusコマンド
 標準入力から読み込んだ数字を足す
