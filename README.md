@@ -1,8 +1,7 @@
 # robosys2022
 ロボットシステム学用の練習用リポジトリ
 
-# ダウンロード方法
-下の文をコピーする          
+# ダウンロード方法          
 ``` 
 git clone https://github.com/sekitorimisaki/robosys202.git
 ```
