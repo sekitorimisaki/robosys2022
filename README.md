@@ -7,7 +7,6 @@ git clone https://github.com/sekitorimisaki/robosys202.git
 ```
 
 # plusコマンド
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字を足す
 
 ## 実行方法
@@ -21,7 +20,6 @@ seq [足したい数字]./plus
 足したい数字までの数を足した結果が出力される
 
 # multiplicationコマンド
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字を掛ける
 
 ## 実行方法
@@ -35,7 +33,6 @@ seq [かけたい数字]./multiplication
 かけたい数字の階乗の結果が出力される
 
 # minコマンド
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字の最小値を出力する
 
 ## 実行方法
@@ -45,7 +42,6 @@ seq [かけたい数字]./multiplication
 value.txtにある数字の最小値が出力される
 
 # maxコマンド
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 標準入力から読み込んだ数字の最大値を出力する
 
 ## 実行方法
