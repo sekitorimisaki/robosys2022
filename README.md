@@ -11,7 +11,7 @@ git clone https://github.com/sekitorimisaki/robosys202.git
 
 ## 実行方法
 ```
-./plus > value.txt  
+./plus < value.txt  
 ```
 value.txtにある数字をすべて足した結果が出力される
 ```
@@ -24,7 +24,7 @@ seq [足したい数字]./plus
 
 ## 実行方法
 ```
-./multiplication > value.txt
+./multiplication < value.txt
 ```  
 ファイルにある数字をすべてかけた結果が出力される
 ```
@@ -37,7 +37,7 @@ seq [かけたい数字]./multiplication
 
 ## 実行方法
 ```
-./min > value.txt 
+./min < value.txt 
 ```
 value.txtにある数字の最小値が出力される
 
@@ -46,19 +46,13 @@ value.txtにある数字の最小値が出力される
 
 ## 実行方法
 ```
-./max > value.txt
+./max < value.txt
 ```
 value.txtにある数字の最大値が出力される
 
 ## 必要なソフトウェア
 * Python
- * テスト済み: 3.7~3.10
-
-## テスト
-| plus | multiplication | max | min |
-| ------------- | ------------- | ------------- | ------------- |
-| ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)  | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) | ![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg) |
-## テスト環境
+ * テスト済み: 3.7## テスト環境
 * Ubuntu 20.04
                       
                     
