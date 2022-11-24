@@ -1,13 +1,11 @@
 # robosys2022
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
 ロボットシステム学用の練習用リポジトリ
 
 # ダウンロード方法          
 ``` 
 git clone https://github.com/sekitorimisaki/robosys202.git
 ```
-## テスト結果
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
-
 # plusコマンド
 標準入力から読み込んだ数字を足す
 
