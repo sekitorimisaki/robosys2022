@@ -1,5 +1,6 @@
 # robosys2022
-[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)
+[![test](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/sekitorimisaki/robosys2022/actions/workflows/test.yml)   
+
 ロボットシステム学用の練習用リポジトリ
 
 # ダウンロード方法          
