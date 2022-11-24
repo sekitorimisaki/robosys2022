@@ -15,7 +15,7 @@ git clone https://github.com/sekitorimisaki/robosys202.git
 ```
 value.txtにある数字をすべて足した結果が出力される
 ```
-seq [足したい数字]./plus 
+seq [足したい数字] |./plus 
 ``` 
 足したい数字までの数を足した結果が出力される
 
@@ -28,7 +28,7 @@ seq [足したい数字]./plus
 ```  
 ファイルにある数字をすべてかけた結果が出力される
 ```
-seq [かけたい数字]./multiplication 
+seq [かけたい数字] |./multiplication 
 ``` 
 かけたい数字の階乗の結果が出力される
 
