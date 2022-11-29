@@ -5,6 +5,7 @@
 # ダウンロード方法          
 ``` 
 git clone https://github.com/sekitorimisaki/robosys2022.git
+cd robosys2022
 ```
 
 # plusコマンド
