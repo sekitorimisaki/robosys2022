@@ -53,12 +53,12 @@ value.txtにある数字の最小値が出力される
 value.txtにある数字の最大値が出力される
 
 ## 必要なソフトウェア
-* Python
-* テスト済み: 3.7~3.10
+* Python 3.7~3.10
+	* テスト済み
 ## テスト環境
 * Ubuntu 20.04
                        
-## 権利関係・謝辞                                               
+## 備考                                               
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
